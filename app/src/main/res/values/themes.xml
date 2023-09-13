@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HistoricalAndTouristicPlaceRecyclerView" parent="Theme.MaterialComponents.DayNight.Bridge">
+        <item name="colorPrimary">@color/actionBarColor</item>
+    </style>
+
+    <style name="Theme.HistoricalAndTouristicPlaceRecyclerView" parent="Base.Theme.HistoricalAndTouristicPlaceRecyclerView" />
+</resources>

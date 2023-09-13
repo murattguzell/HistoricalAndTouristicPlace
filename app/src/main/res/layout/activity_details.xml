@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity"
+    android:background="#B2E3EA">
+
+
+    <ImageView
+        android:id="@+id/placeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/azizpetruskilisesi" />
+
+    <TextView
+        android:id="@+id/placeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Aziz Petrus Kilisesi"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeImageView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp">
+
+        <TextView
+            android:id="@+id/placeDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text=" Akdeniz ile Mezopotamya arasındaki köprü olan Hatay, üç büyük din için de önemli bir şehir. Hristiyanlık tarihindeki ilk mağara kilise olan St. Pierre Kilisesi de burada bulunuyor. Habib-i Neccar Dağı’nın yakınlarında konumlanan kilise, doğal bir mağara içine yapılan eklemeler ile ibadet yeri haline gelmiş. Aziz Petrus’un ilk vaazını burada verdiğine inanıldığı için özellikle din turizmi açısından önemli bir yer olarak görülüyor. Her yıl 29 Haziran’da Katolik Kilisesi tarafından özel bir ayin düzenlenen Saint Pierre Kilisesi ayrıca Hac alanı olarak da ilan edilmiş. Müze kartını kullanıp ücretsiz olarak bu kiliseyi ziyaret edebilirsin."
+            android:textSize="24sp">
+
+        </TextView>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
